@@ -16,8 +16,5 @@ public class Book
         _bookCount++;
     }
 
-    public static int GetBookCount()
-    {
-        return _bookCount;
-    }
+    public static string GetBookCount() => $"Book instances created: {_bookCount}";
 }
